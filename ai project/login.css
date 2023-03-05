@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+.contact-container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.continue-container {
+    margin-top: 10px;
+}
+.continue-container button{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.continue-container .continue-with-google{
+    background-color: violet;
+    color: white;
+    text-transform: capitalize;
+}
+.continue-container .continue-with-apple i{
+    margin-right: 10px;
+}
+.continue-container .continue-with-apple{
+    text-transform: capitalize;
+}
+.continue-container .continue-with-google i{
+    margin-right: 10px;
+}
+.contact-container img{
+    width: 400px;
+    margin-top: -100px;
+}
+.or p{
+    color: #333;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.contact-container form{
+    margin-top: 20px;
+}
+.contact-container form input{
+    width:300px ;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    outline: whitesmoke;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.contact-container .forgot{
+    position: relative;
+    left: -85px;
+    text-decoration: none;
+    color: #ccc;
+    top: 10px;
+    text-transform: capitalize;
+}
+.contact-container .forgot:hover{
+  text-decoration: underline;
+}
+.contact-container form button{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    outline: 0;
+    border: 0;
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.contact-container form button:hover{
+    background-color: violet;
+    transition: background 1s;
+}
+.create-account{
+    position: relative;
+    left: -60px;
+    top: 20px;
+}
+.create-account span{
+    color: #ccc;
+    text-transform: capitalize;
+    margin-right: 3px;
+    font-size: 16px;
+}
+.create-account a{
+    text-decoration: none;
+    color: silver;
+}
+.create-account a:hover{
+    text-decoration: underline;
+}
